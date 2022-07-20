@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+  }
+}
+
+header {
+  padding: 2em 2em 0 2em;
+  background-color: rgba(128, 128, 128, 0.253);
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+      list-style-type: none;
+      display: flex;
+      gap: 1em;
+
+      li {
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+
+    div.profile {
+      display: flex;
+      gap: 1em;
+
+      img {
+        width: 30px;
+        border-radius: 100px;
+      }
+    }
+  }
+
+  section#about {
+    display: flex;
+    align-items: flex-end;
+
+    div.title-icons {
+      padding: 3em;
+      width: 50%;
+
+      div.icons {
+        margin-top: 3em;
+        img {
+          width: 25px;
+          height: 25px;
+        }
+      }
+    }
+
+    #box-container {
+      display: flex;
+      gap: 2em;
+
+      .box {
+        height: 200px;
+        width: 230px;
+        background-color: rgba(128, 128, 128, 0.253);
+      }
+    }
+  }
+}
+
+main {
+  padding: 5em;
+  text-align: center;
+
+  section#team {
+    h1 {
+      padding: 2em;
+    }
+
+    div.profiles {
+      display: flex;
+      justify-content: center;
+      gap: 10em;
+
+      img {
+        border-radius: 100px;
+      }
+    }
+  }
+
+  section#contacts {
+    padding-top: 5em;
+
+    .inputDesign {
+      width: 100%;
+      border: none;
+      border-radius: 5px;
+      background-color: rgba(128, 128, 128, 0.253);
+    }
+
+    h1 {
+      padding: 2em;
+    }
+
+    div.mail {
+      display: flex;
+      justify-content: center;
+
+      form.email {
+        text-align: left;
+        justify-content: flex-end;
+        padding: 3em 10em 3em 3em;
+        background-color: rgba(128, 128, 128, 0.253);
+
+        section#comment {
+          textarea {
+            width: 100%;
+            resize: none;
+          }
+
+          div.button {
+            button {
+              text-align: center;
+              background-color: white;
+              color: black;
+            }
+          }
+        }
+      }
+
+      div.adress {
+        padding: 3em 10em 3em 3em;
+        text-align: left;
+        background-color: rgba(128, 128, 128, 0.5);
+      }
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5em;
+}

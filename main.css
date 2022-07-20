@@ -1,0 +1,178 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-weight: 700;
+}
+
+header {
+  padding: 2em 2em 0 2em;
+  background-color: rgba(128, 128, 128, 0.253);
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+header nav div.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+}
+
+header nav div.profile img {
+  width: 30px;
+  border-radius: 100px;
+}
+
+header section#about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+header section#about div.title-icons {
+  padding: 3em;
+  width: 50%;
+}
+
+header section#about div.title-icons div.icons {
+  margin-top: 3em;
+}
+
+header section#about div.title-icons div.icons img {
+  width: 25px;
+  height: 25px;
+}
+
+header section#about #box-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2em;
+}
+
+header section#about #box-container .box {
+  height: 200px;
+  width: 230px;
+  background-color: rgba(128, 128, 128, 0.253);
+}
+
+main {
+  padding: 5em;
+  text-align: center;
+}
+
+main section#team h1 {
+  padding: 2em;
+}
+
+main section#team div.profiles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10em;
+}
+
+main section#team div.profiles img {
+  border-radius: 100px;
+}
+
+main section#contacts {
+  padding-top: 5em;
+}
+
+main section#contacts .inputDesign {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.253);
+}
+
+main section#contacts h1 {
+  padding: 2em;
+}
+
+main section#contacts div.mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main section#contacts div.mail form.email {
+  text-align: left;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 3em 10em 3em 3em;
+  background-color: rgba(128, 128, 128, 0.253);
+}
+
+main section#contacts div.mail form.email section#comment textarea {
+  width: 100%;
+  resize: none;
+}
+
+main section#contacts div.mail form.email section#comment div.button button {
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+main section#contacts div.mail div.adress {
+  padding: 3em 10em 3em 3em;
+  text-align: left;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5em;
+}
+/*# sourceMappingURL=main.css.map */
